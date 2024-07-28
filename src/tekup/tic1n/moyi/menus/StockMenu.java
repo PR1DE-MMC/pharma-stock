@@ -1,7 +1,7 @@
-package tekup.tic1n.moyi.menu;
+package tekup.tic1n.moyi.menus;
 
-import tekup.tic1n.moyi.service.impl.StockService;
-import tekup.tic1n.moyi.service.singletons.StockServiceSingleton;
+import tekup.tic1n.moyi.services.impl.StockService;
+import tekup.tic1n.moyi.services.singletons.StockServiceSingleton;
 
 public class StockMenu extends AbstractMenu<StockService>{
 

@@ -1,7 +1,6 @@
-package tekup.tic1n.moyi.model;
+package tekup.tic1n.moyi.models;
 
 import tekup.tic1n.moyi.models.enumeration.MedicationForm;
-
 import java.util.Objects;
 
 public class Medication extends AbstractEntity {

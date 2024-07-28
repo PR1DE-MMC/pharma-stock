@@ -1,4 +1,4 @@
-package tekup.tic1n.moyi.model;
+package tekup.tic1n.moyi.models;
 
 import java.io.Serializable;
 

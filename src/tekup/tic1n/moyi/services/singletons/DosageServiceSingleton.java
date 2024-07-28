@@ -1,6 +1,6 @@
-package tekup.tic1n.moyi.service.singleton;
+package tekup.tic1n.moyi.services.singletons;
 
-import tekup.tic1n.moyi.service.impl.DosageService;
+import tekup.tic1n.moyi.services.impl.DosageService;
 
 public class DosageServiceSingleton {
     private static DosageService instance;

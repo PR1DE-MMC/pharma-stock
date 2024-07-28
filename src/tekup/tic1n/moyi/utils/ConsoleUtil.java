@@ -1,6 +1,6 @@
 package tekup.tic1n.moyi.utils;
 
-import tekup.tic1n.moyi.service.singleton.ScannerSingleton;
+import tekup.tic1n.moyi.services.singletons.ScannerSingleton;
 
 
 public class ConsoleUtil {

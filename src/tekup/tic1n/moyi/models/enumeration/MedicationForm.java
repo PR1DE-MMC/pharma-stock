@@ -1,4 +1,4 @@
-package tekup.tic1n.moyi.model.enumeration;
+package tekup.tic1n.moyi.models.enumeration;
 
 public enum MedicationForm {
     PILLS,

@@ -1,4 +1,4 @@
-package tekup.tic1n.moyi.service.singleton;
+package tekup.tic1n.moyi.services.singletons;
 
 import tekup.tic1n.moyi.services.impl.MedicationService;
 

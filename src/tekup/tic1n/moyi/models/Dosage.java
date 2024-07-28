@@ -1,4 +1,4 @@
-package tekup.tic1n.moyi.model;
+package tekup.tic1n.moyi.models;
 
 public class Dosage extends AbstractEntity {
     private float dosage;

@@ -1,13 +1,13 @@
-package tekup.tic1n.moyi.service.impl;
+package tekup.tic1n.moyi.services.impl;
 
-import tekup.tic1n.moyi.model.Dosage;
-import tekup.tic1n.moyi.model.Medication;
-import tekup.tic1n.moyi.model.Molecule;
-import tekup.tic1n.moyi.service.AbstractService;
-import tekup.tic1n.moyi.service.exception.InvalidMedicationException;
-import tekup.tic1n.moyi.service.exception.InvalidMoleculeException;
-import tekup.tic1n.moyi.service.singleton.MedicationServiceSingleton;
-import tekup.tic1n.moyi.service.singleton.MoleculeServiceSingleton;
+import tekup.tic1n.moyi.models.Dosage;
+import tekup.tic1n.moyi.models.Medication;
+import tekup.tic1n.moyi.models.Molecule;
+import tekup.tic1n.moyi.services.AbstractService;
+import tekup.tic1n.moyi.services.exceptions.InvalidMedicationException;
+import tekup.tic1n.moyi.services.exceptions.InvalidMoleculeException;
+import tekup.tic1n.moyi.services.singletons.MedicationServiceSingleton;
+import tekup.tic1n.moyi.services.singletons.MoleculeServiceSingleton;
 
 import static java.util.Objects.isNull;
 import static tekup.tic1n.moyi.utils.ConsoleUtil.*;

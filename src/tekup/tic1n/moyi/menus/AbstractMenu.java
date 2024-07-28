@@ -1,19 +1,19 @@
-package tekup.tic1n.moyi.menu;
+package tekup.tic1n.moyi.menus;
 
-import tekup.tic1n.moyi.service.AbstractService;
+import tekup.tic1n.moyi.services.AbstractService;
 
 import java.util.HashMap;
 
 import static tekup.tic1n.moyi.utils.ConsoleUtil.readChoice;
 import static tekup.tic1n.moyi.utils.ConsoleUtil.writeChoices;
 
-public abstract class AbstractMenu<T extends AbstractService<?>> {
+public class AbstractMenu<T extends AbstractService<?>> {
 
     protected final HashMap<String, Runnable> menuMap;
 
     protected T service;
 
-    protected AbstractMenu(T service) {
+    public AbstractMenu(T service) {
         this.menuMap = new HashMap<>();
         this.service = service;
         menuMap.put("Create", this.service::create);

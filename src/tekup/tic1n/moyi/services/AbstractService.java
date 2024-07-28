@@ -1,9 +1,11 @@
-package tekup.tic1n.moyi.service;
+package tekup.tic1n.moyi.services;
 
-import tekup.tic1n.moyi.model.AbstractEntity;
+import tekup.tic1n.moyi.models.AbstractEntity;
+import tekup.tic1n.moyi.services.singletons.ScannerSingleton;
 
 import java.util.List;
 import java.util.Optional;
+import java.util.Scanner;
 
 import static tekup.tic1n.moyi.utils.ConsoleUtil.readInt;
 import static tekup.tic1n.moyi.utils.FileSystemUtil.writeObjects;
@@ -14,9 +16,12 @@ public abstract class AbstractService<T extends AbstractEntity>{
 
     protected List<T> items;
 
+    protected final Scanner scanner;
+
     protected AbstractService(List<T> items, String fileName) {
         this.fileName = fileName;
         this.items = items;
+        this.scanner = ScannerSingleton.getInstance();
     }
 
     public abstract int create();

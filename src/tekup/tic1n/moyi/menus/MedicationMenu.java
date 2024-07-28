@@ -1,4 +1,4 @@
-package tekup.tic1n.moyi.menu;
+package tekup.tic1n.moyi.menus;
 
 import tekup.tic1n.moyi.services.impl.MedicationService;
 import tekup.tic1n.moyi.services.singletons.MedicationServiceSingleton;

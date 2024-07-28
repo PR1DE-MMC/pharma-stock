@@ -1,4 +1,4 @@
-package tekup.tic1n.moyi.service.impl;
+package tekup.tic1n.moyi.services.impl;
 
 import tekup.tic1n.moyi.models.Molecule;
 import tekup.tic1n.moyi.services.AbstractService;

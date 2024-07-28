@@ -1,10 +1,10 @@
 package tekup.tic1n.moyi.services.impl;
 
-import tekup.tic1n.moyi.model.Medication;
-import tekup.tic1n.moyi.model.Stock;
-import tekup.tic1n.moyi.service.AbstractService;
-import tekup.tic1n.moyi.service.exceptions.InvalidMedicationException;
-import tekup.tic1n.moyi.service.singletons.MedicationServiceSingleton;
+import tekup.tic1n.moyi.models.Medication;
+import tekup.tic1n.moyi.models.Stock;
+import tekup.tic1n.moyi.services.AbstractService;
+import tekup.tic1n.moyi.services.exceptions.InvalidMedicationException;
+import tekup.tic1n.moyi.services.singletons.MedicationServiceSingleton;
 
 import java.util.Optional;
 

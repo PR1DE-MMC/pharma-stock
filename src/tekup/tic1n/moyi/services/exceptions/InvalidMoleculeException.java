@@ -1,4 +1,4 @@
-package tekup.tic1n.moyi.service.exception;
+package tekup.tic1n.moyi.services.exceptions;
 
 public class InvalidMoleculeException extends RuntimeException{
     public InvalidMoleculeException(){
