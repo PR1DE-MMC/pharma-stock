@@ -8,12 +8,13 @@ import static tekup.tic1n.moyi.utils.ConsoleUtil.writeChoices;
 
 public class Main {
 
-    private static final String[] choices = {"Medication","Molecule","Quit"};
+    private static final String[] choices = {"Medication","Molecule","Dosage","Quit"};
 
     public static void main(String[] args) {
 
         MedicationMenu medicationMenu = new MedicationMenu();
         MoleculeMenu moleculeMenu = new MoleculeMenu();
+        DosageMenu dosageMenu = new DosageMenu();
 
         while(true){
             writeChoices(choices);
@@ -24,6 +25,10 @@ public class Main {
                 }
                 case "Molecule":{
                     moleculeMenu.showChoices();
+                    break;
+                }
+                case "Dosage":{
+                    dosageMenu.showChoices();
                     break;
                 }
                 case "Quit": {
