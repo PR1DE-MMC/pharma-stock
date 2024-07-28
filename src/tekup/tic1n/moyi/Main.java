@@ -8,14 +8,14 @@ import static tekup.tic1n.moyi.utils.ConsoleUtil.writeChoices;
 
 public class Main {
 
-    private static final String[] choices = {"Medication","Molecule","Stock","Quit"};
+    private static final String[] choices = {"Medication","Molecule","Dosage","Stock","Quit"};
 
     public static void main(String[] args) {
 
         MedicationMenu medicationMenu = new MedicationMenu();
         MoleculeMenu moleculeMenu = new MoleculeMenu();
+        DosageMenu dosageMenu = new DosageMenu();
         StockMenu stockMenu = new StockMenu();
-
         while(true){
             writeChoices(choices);
             switch((String) readChoice(choices)){
@@ -27,7 +27,11 @@ public class Main {
                     moleculeMenu.showChoices();
                     break;
                 }
-                case 'Stock':{
+                case "Dosage":{
+                    dosageMenu.showChoices();
+                    break;
+                }
+                case "Stock":{
                     stockMenu.showChoices();
                     break;
                 }
